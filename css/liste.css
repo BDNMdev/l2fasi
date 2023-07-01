@@ -1,0 +1,141 @@
+
+    /* Styles CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav .logo img{ 
+      width: 70px;
+      height: 70px;
+      margin-left: 50px;  
+  } 
+  
+  nav{ 
+      height: 70px; background: #5488dc; box-shadow: 0 3px 15px rgba(0,0,0,.4); 
+  } 
+  
+  nav ul{
+       float: right; margin-right: 30px; 
+  } 
+  
+  nav ul li{ 
+      display: inline-block; 
+  } 
+  
+  nav ul li a{ 
+      color: white; display: block; padding: 0 15px;  font-size: 20px; background: #5488dc; transition: .5s; text-decoration: none;
+  } 
+  
+  nav ul li a:hover, 
+  
+  nav ul li a.active{ 
+      color: #000000; 
+  } 
+  
+  nav ul ul{ 
+      position: absolute; top: 85px; border-top: 3px solid #000000; opacity: 0; visibility: hidden; 
+  } 
+  
+  nav ul li:hover > ul{ 
+      height: 70px; opacity: 1; visibility: visible; transition: .3s linear; 
+  } 
+  
+  nav ul ul li{ 
+      width: 150px; display: list-item; position: relative; border: 1px solid #000000; border-top: none; 
+  } 
+  
+  nav ul ul li a{ 
+      line-height: 50px; 
+  } 
+  
+  nav ul ul ul{ 
+      border-top: none; 
+  } 
+  
+  nav ul ul ul li{ 
+      position: relative; top: -70px; left: 150px; 
+  } 
+  
+  nav ul ul li a i{ 
+      margin-left: 45px; 
+  } 
+  body .button-container {
+     
+    display: inline-block;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    transition: transform 0.3s ease;
+  }
+
+  .button:hover {
+    transform: scale(1.2);
+  }
+ 
+   
+
+    main {
+      padding: 20px;
+    }
+    main ul li a{
+      text-decoration: none;
+    }
+    span {
+      transition: font-size 0.3s ease; /* Transition de 0.5 seconde avec une fonction d'accélération */
+    }
+    
+    span:hover {
+      font-size: 1.2em; /* Taille de police augmentée */
+    }
+    main ul li span{
+        font-size: 19px;
+        font-family: Century;
+        font-weight: bold;
+        /*color: black;*/
+        
+    }
+
+    .liste-etudiant {
+      list-style: none;
+      padding: 0;
+    }
+
+    .liste-etudiant li {
+      margin-bottom: 10px;
+    }
+
+    .nom-etudiant {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 60px;
+      background-color: rgba(230, 170, 17, 0.137);
+    }
+
+    .image-etudiant {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #f2f2f2;
+      display: inline-block;
+      margin-right: 10px;
+    }
+  
+    
+      
+       

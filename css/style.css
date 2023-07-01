@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    font-family: sans-serif; ; 
+} 
+
+nav .logo img{ 
+    width: 70px;
+    height: 70px;
+    margin-left: 50px; 
+} 
+
+nav{ 
+    height: 70px; background: #5488dc; box-shadow: 0 3px 15px rgba(0,0,0,.4); 
+} 
+
+nav ul{
+     float: right; margin-right: 30px; 
+} 
+
+nav ul li{ 
+    display: inline-block; 
+} 
+
+nav ul li a{ 
+    color: white; display: block; padding: 0 15px; line-height: 70px; font-size: 20px; background: #5488dc; transition: .5s; text-decoration: none; 
+} 
+
+nav ul li a:hover, 
+
+nav ul li a.active{ 
+    color: #000000; 
+} 
+nav ul ul{ 
+    position: absolute; top: 85px; border-top: 3px solid #000000; opacity: 0; visibility: hidden; 
+} 
+
+nav ul li:hover > ul{ 
+    top: 70px; opacity: 1; visibility: visible; transition: .3s linear; 
+} 
+
+nav ul ul li{ 
+    width: 150px; display: list-item; position: relative; border: 1px solid #000000; border-top: none; 
+} 
+
+nav ul ul li a{ 
+    line-height: 50px; 
+} 
+
+nav ul ul ul{ 
+    border-top: none; 
+} 
+
+nav ul ul ul li{ 
+    position: relative; top: -70px; left: 150px; 
+} 
+
+nav ul ul li a i{ 
+    margin-left: 45px; 
+}
+section{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("../img/UPC.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 530px;
+}
+section .text{
+    margin-bottom: 20px;
+}
+section .text h1{
+    font-size: 50px;
+    font-family: cursive;
+    color: #e0ef3acf;
+}
+section .text p{
+    text-align: center;
+    color: #f9fafe;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
